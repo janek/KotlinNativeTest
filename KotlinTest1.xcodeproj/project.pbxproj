@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6037C13D0744E22BC66C174C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6037C4697F13342DCF7F24E1 /* LaunchScreen.storyboard */; };
+		6037C7A5013680BB1DADE147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6037CA970A2BC57CED8074B7 /* Assets.xcassets */; };
+		6037CD8F58BB5DB3771A980A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6037C33623C9C370E10C14C2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6037C0825BDB79085CA52E2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6037C1D81EB8C699C4062993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6037C315E988718BD48E0164 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		6037C4EE0A1698CDEE89950A /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		6037C654BFF719C876BADDDE /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		6037C69972AA50EEC6D85E43 /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		6037C7321E194D10A88D82BB /* ViewController.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = ViewController.kt; sourceTree = "<group>"; };
+		6037C73D8DB37CE1B78085E5 /* AppDelegate.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = AppDelegate.kt; sourceTree = "<group>"; };
+		6037C74F16C1BCD013EEE32E /* TestSuite.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = TestSuite.kt; sourceTree = "<group>"; };
+		6037C7CE37B417C09917081E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		6037C7FF698D29615D6DDEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6037C8B0CC6787D52457E654 /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		6037CA821FE9CDAABAB9A0E1 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+		6037CA970A2BC57CED8074B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6037CACE95628B7B08EDCD53 /* KotlinTest1TestsxD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinTest1TestsxD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6037CBF0439A7C14E5071A87 /* KotlinTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6037CDFF838909E4C331BECC /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		6037CF77C2FC039146FA45C7 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		6037CFC04AB6AE3BC3087064 /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6037C4572F060959AF7C9B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6037C71314D8A7AB128D62C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6037C0053770484B7F7A9CCA /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				6037C74F16C1BCD013EEE32E /* TestSuite.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		6037C036406355416126C3A4 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				6037C73D8DB37CE1B78085E5 /* AppDelegate.kt */,
+				6037C7321E194D10A88D82BB /* ViewController.kt */,
+				6037C8B0CC6787D52457E654 /* main.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		6037C05E325AD7B988C040A4 /* KotlinTest1TestsxD */ = {
+			isa = PBXGroup;
+			children = (
+				6037C7CE37B417C09917081E /* Info.plist */,
+				6037CE5F8AA6C0D18DFFD617 /* Supporting Files */,
+				6037C2B4830324DD881BDF41 /* src */,
+			);
+			path = KotlinTest1TestsxD;
+			sourceTree = "<group>";
+		};
+		6037C29BF8E520708598A74A /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				6037CA821FE9CDAABAB9A0E1 /* gradle-wrapper.properties */,
+				6037CF77C2FC039146FA45C7 /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		6037C2B4830324DD881BDF41 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6037CE28F90AB92CA4F94B65 /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6037C41D415C8073A1C69EC3 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				6037CFC04AB6AE3BC3087064 /* gradle-wrapper.properties */,
+				6037C315E988718BD48E0164 /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+		6037C49C86FAEA53FA8CBD15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6037C654BFF719C876BADDDE /* build.gradle */,
+				6037C69972AA50EEC6D85E43 /* gradlew */,
+				6037C4B396D10272660C6CBC /* gradle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6037C4B396D10272660C6CBC /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				6037C41D415C8073A1C69EC3 /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		6037C73EDF68920A8C86AD7D /* KotlinTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				6037C49C86FAEA53FA8CBD15 /* Supporting Files */,
+				6037C0825BDB79085CA52E2F /* Info.plist */,
+				6037CA970A2BC57CED8074B7 /* Assets.xcassets */,
+				6037C4697F13342DCF7F24E1 /* LaunchScreen.storyboard */,
+				6037C33623C9C370E10C14C2 /* Main.storyboard */,
+				6037CBD9C34890CF1F669556 /* src */,
+			);
+			path = KotlinTest1;
+			sourceTree = "<group>";
+		};
+		6037C843137F9DDEC82BE7FF /* main */ = {
+			isa = PBXGroup;
+			children = (
+				6037C036406355416126C3A4 /* kotlin */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		6037CBD9C34890CF1F669556 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6037C843137F9DDEC82BE7FF /* main */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		6037CD314BD229B5F0EF0759 = {
+			isa = PBXGroup;
+			children = (
+				6037CE2B188711883382560D /* Products */,
+				6037C73EDF68920A8C86AD7D /* KotlinTest1 */,
+				6037C05E325AD7B988C040A4 /* KotlinTest1TestsxD */,
+			);
+			sourceTree = "<group>";
+		};
+		6037CE28F90AB92CA4F94B65 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				6037C0053770484B7F7A9CCA /* kotlin */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		6037CE2B188711883382560D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6037CBF0439A7C14E5071A87 /* KotlinTest1.app */,
+				6037CACE95628B7B08EDCD53 /* KotlinTest1TestsxD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6037CE5F8AA6C0D18DFFD617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6037CDFF838909E4C331BECC /* build.gradle */,
+				6037C4EE0A1698CDEE89950A /* gradlew */,
+				6037CE60FC93F77FCA8F954F /* gradle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6037CE60FC93F77FCA8F954F /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				6037C29BF8E520708598A74A /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6037C22B8B5762AB4F0CE774 /* KotlinTest1TestsxD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6037C88415F9DEE1BD9E7D86 /* Build configuration list for PBXNativeTarget "KotlinTest1TestsxD" */;
+			buildPhases = (
+				6037C263E4B0D023C70B8786 /* Compile Kotlin/Native */,
+				6037C7F4C5105A8414DFA3B7 /* Sources */,
+				6037C71314D8A7AB128D62C3 /* Frameworks */,
+				6037CB1FEB30260E7EEF85E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinTest1TestsxD;
+			productName = KotlinTest1TestsxD;
+			productReference = 6037CACE95628B7B08EDCD53 /* KotlinTest1TestsxD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6037C8BDD0031655437BA00E /* KotlinTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6037CAD2905415ED1E553613 /* Build configuration list for PBXNativeTarget "KotlinTest1" */;
+			buildPhases = (
+				6037CCE850D263A632526A08 /* Sources */,
+				6037C4572F060959AF7C9B04 /* Frameworks */,
+				6037C79ABA08ABF26A324BE3 /* Resources */,
+				6037CB8D8924820DB16983D4 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinTest1;
+			productName = KotlinTest1;
+			productReference = 6037CBF0439A7C14E5071A87 /* KotlinTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6037C8BE79ACD42B24ACB9AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = PJM;
+				TargetAttributes = {
+					6037C8BDD0031655437BA00E = {
+						DevelopmentTeam = ACDRGW6CP2;
+					};
+				};
+			};
+			buildConfigurationList = 6037C622229B22D77FC09A4B /* Build configuration list for PBXProject "KotlinTest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6037CD314BD229B5F0EF0759;
+			productRefGroup = 6037CE2B188711883382560D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6037C8BDD0031655437BA00E /* KotlinTest1 */,
+				6037C22B8B5762AB4F0CE774 /* KotlinTest1TestsxD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6037C79ABA08ABF26A324BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6037C7A5013680BB1DADE147 /* Assets.xcassets in Resources */,
+				6037C13D0744E22BC66C174C /* LaunchScreen.storyboard in Resources */,
+				6037CD8F58BB5DB3771A980A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6037CB1FEB30260E7EEF85E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6037C263E4B0D023C70B8786 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\ncd \"$SRCROOT/$KONAN_PACKAGE_NAME\"; sh -c \". ./gradlew $KONAN_TASK -Pkonan.configuration.build.dir=\\\"$CONFIGURATION_BUILD_DIR\\\" \\\n-Pkonan.debugging.symbols=$DEBUGGING_SYMBOLS -Pkonan.optimizations.enable=$KONAN_ENABLE_OPTIMIZATIONS\"\n  cp \"$TARGET_BUILD_DIR/$KONAN_PACKAGE_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+		6037CB8D8924820DB16983D4 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -f \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\ncd \"$SRCROOT/$KONAN_PACKAGE_NAME\"; sh -c \". ./gradlew $KONAN_TASK -Pkonan.configuration.build.dir=\\\"$CONFIGURATION_BUILD_DIR\\\" \\\n-Pkonan.debugging.symbols=$DEBUGGING_SYMBOLS -Pkonan.optimizations.enable=$KONAN_ENABLE_OPTIMIZATIONS\"\ncp \"$TARGET_BUILD_DIR/$KONAN_PACKAGE_NAME.kexe\" \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6037C7F4C5105A8414DFA3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6037CCE850D263A632526A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6037C33623C9C370E10C14C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6037C1D81EB8C699C4062993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6037C4697F13342DCF7F24E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6037C7FF698D29615D6DDEE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6037C02D641FCBA8679BB43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACDRGW6CP2;
+				INFOPLIST_FILE = KotlinTest1/Info.plist;
+				KONAN_ENABLE_OPTIMIZATIONS = NO;
+				KONAN_PACKAGE_NAME = KotlinTest1;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = janekszynal.KotlinTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		6037C5B6883AD3E3A14312A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = KotlinTest1TestsxD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				KONAN_ENABLE_OPTIMIZATIONS = NO;
+				KONAN_PACKAGE_NAME = KotlinTest1TestsxD;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				KONAN_TEST = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = janekszynal.KotlinTest1TestsxD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		6037C7CB010D3C37CC18A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6037CA8ABFD0EFAD35741282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = KotlinTest1TestsxD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				KONAN_ENABLE_OPTIMIZATIONS = YES;
+				KONAN_PACKAGE_NAME = KotlinTest1TestsxD;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				KONAN_TEST = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = janekszynal.KotlinTest1TestsxD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		6037CD60A2FA9C989B9A6F40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ACDRGW6CP2;
+				INFOPLIST_FILE = KotlinTest1/Info.plist;
+				KONAN_ENABLE_OPTIMIZATIONS = YES;
+				KONAN_PACKAGE_NAME = KotlinTest1;
+				"KONAN_TASK[sdk=iphoneos*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_arm64";
+				"KONAN_TASK[sdk=iphonesimulator*]" = "compileKonan$(TARGET_NAME:c99extidentifier)Ios_x64";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = janekszynal.KotlinTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		6037CDA00D074307F40952C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6037C622229B22D77FC09A4B /* Build configuration list for PBXProject "KotlinTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6037CDA00D074307F40952C0 /* Debug */,
+				6037C7CB010D3C37CC18A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6037C88415F9DEE1BD9E7D86 /* Build configuration list for PBXNativeTarget "KotlinTest1TestsxD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6037C5B6883AD3E3A14312A0 /* Debug */,
+				6037CA8ABFD0EFAD35741282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6037CAD2905415ED1E553613 /* Build configuration list for PBXNativeTarget "KotlinTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6037C02D641FCBA8679BB43C /* Debug */,
+				6037CD60A2FA9C989B9A6F40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6037C8BE79ACD42B24ACB9AF /* Project object */;
+}
